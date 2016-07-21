@@ -57,13 +57,6 @@ struct uri_t
     }
 };
 
-static vector<string> parse_uri(const string &uri)
-{
-    vector<string> res;
-
-    return res;
-}
-
 handler_t::handler_t(const char *method_name) : method(method_name) {}
 handler_get_t::handler_get_t() : handler_t("GET") {}
 
